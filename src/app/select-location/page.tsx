@@ -5,7 +5,7 @@ import dynamic from 'next/dynamic';
 import axios from 'axios';
 import { useRouter } from 'next/navigation';
 import { TELEGRAM_BOT_TOKEN, TELEGRAM_CHAT_ID } from '../lib/telegramConfig';
-import L, { LeafletMouseEvent } from 'leaflet';
+import L { LeafletMouseEvent } from 'leaflet';
 import { useMapEvents } from 'react-leaflet'; // ✅ Hook must be statically imported
 
 // ✅ Dynamically import only components from react-leaflet
